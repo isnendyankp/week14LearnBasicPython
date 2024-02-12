@@ -9,7 +9,6 @@ print("hello", "world!", sep="-", end="!")
     Komentar
 """
 
-print(😁)
-       
+print("\U0001F601")
 # emoji
       
