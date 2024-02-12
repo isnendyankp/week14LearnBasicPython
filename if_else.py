@@ -32,3 +32,12 @@ if a is not b:
     print("a tidak sama dengan b")
 if a or b:
     print("a atau b benar")
+
+# Match case
+match animal:
+    case "🐺":
+        print("wolf")
+    case "🐱":
+        print("cat")
+    case _:
+        print("animal not found")
