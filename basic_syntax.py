@@ -6,5 +6,10 @@ print(4)
 print("hello", "world!", sep="-", end="!")
 
 """
-
+    Komentar
 """
+
+print(😁)
+       
+# emoji
+      
