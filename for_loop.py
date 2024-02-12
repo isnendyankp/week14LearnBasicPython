@@ -6,3 +6,13 @@ for number in range(1, 11):
 array = ["A", "B", "C", "D", "E"]
 for data in array:
     print(data)
+
+# Comprehension
+# for loop with array
+array = ["A", "B", "C", "D", "E"]
+for data in array:
+    print(data)
+# for loop with array using comprehension
+array = ["A", "B", "C", "D", "E"]
+[print(data) for data in array]
+
