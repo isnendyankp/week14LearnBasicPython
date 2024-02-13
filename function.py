@@ -42,3 +42,11 @@ def family(*kids):
 family("Emil", "Tobias", "Linus")
 # hasoutput: The youngest child is Linus karena Linus adalah anak termuda dan berada di index ke-2
 
+# Arbitrary keyword argument
+
+def my_function(**kid):
+    print("His last name is " + kid["lname"])
+
+my_function(fname = "Tobias", lname = "Refsnes")
+# hasoutput: His last name is Refsnes karena lname adalah keyword argument yang diinputkan pada fungsi my_function
+# dan di print menggunakan print(kid["lname"]) yang berarti print nilai dari lname  yang diinputkan pada fungsi my_function yaitu Refsnes
