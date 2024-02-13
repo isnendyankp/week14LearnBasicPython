@@ -62,3 +62,20 @@ def myfunction(name, *, age):
 
 myfunction("John", age = "36")
 # hasoutput: John is 36 years old karena age adalah keyword-only arguments yang diinputkan pada fungsi myfunction
+
+# Lambda function
+x = lambda a : a + 10
+print(x(5))
+# hasoutput: 15
+
+y = lambda a, b : a * b
+print(y(5, 6))
+# hasoutput: 30
+
+z = lambda a, b, c : a + b + c
+print(z(5, 6, 2))
+# hasoutput: 13
+
+# Lambda function digunakan untuk membuat fungsi yang sederhana tanpa menggunakan def dan return
+# Lambda function hanya memiliki satu baris kode
+# Lambda function dapat memiliki banyak parameter
