@@ -14,7 +14,7 @@ def animal():
 animal()
 
 # membuat fungsi dengan nama feed yang berisi 3 parameter yaitu animal, food, total
-def feed(animal, food, total):
+def feed(animal = "panda", food = "bamboo", total = 3):
 
     # menggunakan fungsi print untuk menampilkan hasil dari parameter yang diinputkan
     # print(animal + " eats " + food + " " + str(total) + " times.")
@@ -30,4 +30,7 @@ activity, activity2, activity3 = feed("hamster", "seeds", 5), feed("cat", "fish"
 # memanggil variabel activity, activity2, activity3 yang berisi fungsi feed
 print(activity2)
 print(activity3)
+
+# memanggil fungsi feed tanpa parameter atau menggunakan default parameter
+print(feed())
 
