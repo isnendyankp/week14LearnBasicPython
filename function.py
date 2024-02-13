@@ -55,3 +55,10 @@ my_function(fname = "Tobias", lname = "Refsnes")
 def myfunction():
     pass
 # pass statement digunakan untuk menulis kode yang belum diimplementasikan atau kode yang kosong tanpa error atau exception yang dihasilkan oleh python jika kode tersebut kosong
+
+# keyword-only arguments
+def myfunction(name, *, age):
+    print(name + " is " + age + " years old")
+
+myfunction("John", age = "36")
+# hasoutput: John is 36 years old karena age adalah keyword-only arguments yang diinputkan pada fungsi myfunction
