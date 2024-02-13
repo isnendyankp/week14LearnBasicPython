@@ -50,3 +50,8 @@ def my_function(**kid):
 my_function(fname = "Tobias", lname = "Refsnes")
 # hasoutput: His last name is Refsnes karena lname adalah keyword argument yang diinputkan pada fungsi my_function
 # dan di print menggunakan print(kid["lname"]) yang berarti print nilai dari lname  yang diinputkan pada fungsi my_function yaitu Refsnes
+
+# pass statement
+def myfunction():
+    pass
+# pass statement digunakan untuk menulis kode yang belum diimplementasikan atau kode yang kosong tanpa error atau exception yang dihasilkan oleh python jika kode tersebut kosong
