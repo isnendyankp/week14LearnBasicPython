@@ -12,3 +12,10 @@ def animal():
 
 # memanggil fungsi
 animal()
+
+# membuat fungsi dengan nama feed yang berisi 3 parameter yaitu animal, food, total
+def feed(animal, food, total):
+    print(animal + " eats " + food + " " + str(total) + " times.")
+
+# memanggil fungsi feed dengan 3 parameter
+feed("hamster", "seeds", 5)
