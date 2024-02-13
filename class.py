@@ -7,9 +7,9 @@ class Car:
     # method to display car information
     def display_info(self):
         return f"this car is a {self.brand} {self.model}"
-    
+
 # Create an instance of the Car class
-    my_car = Car("Toyota", "Corolla")
+my_car = Car("Toyota", "Corolla")
 
 # Call the method display_info
 print(my_car.display_info())
