@@ -34,3 +34,11 @@ print(activity3)
 # memanggil fungsi feed tanpa parameter atau menggunakan default parameter
 print(feed())
 
+# tuple argument
+
+def family(*kids):
+    print("The youngest child is " + kids[2])
+
+family("Emil", "Tobias", "Linus")
+# hasoutput: The youngest child is Linus karena Linus adalah anak termuda dan berada di index ke-2
+
