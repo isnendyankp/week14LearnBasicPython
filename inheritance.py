@@ -14,3 +14,7 @@ class Dog(Animal):
 class Cat(Animal):
     def speak(self):
         return "meow!"
+
+# create instances of dog and cat
+dog = Dog("Rex")
+cat = Cat("Whiskers")
