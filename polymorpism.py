@@ -13,3 +13,7 @@ def animal_sound(animal):
 # creating instances of dog and bird
 dog = Dog()
 bird = Bird()
+
+# passing the instances
+animal_sound(dog)
+animal_sound(bird)
