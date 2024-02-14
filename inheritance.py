@@ -18,3 +18,7 @@ class Cat(Animal):
 # create instances of dog and cat
 dog = Dog("Rex")
 cat = Cat("Whiskers")
+
+# Call the speak method of the dog and cat
+print(dog.speak())
+print(cat.speak())
