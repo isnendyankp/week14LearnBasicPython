@@ -10,3 +10,6 @@ class Dog:
 def animal_sound(animal):
     print(animal.speak())
 
+# creating instances of dog and bird
+dog = Dog()
+bird = Bird()
